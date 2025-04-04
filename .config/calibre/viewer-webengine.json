@@ -1,0 +1,165 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 727,
+      "width": 1356,
+      "x": 5,
+      "y": 36
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 725,
+      "width": 1354,
+      "x": 6,
+      "y": 37
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 725,
+      "width": 1354,
+      "x": 6,
+      "y": 37
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAFAAAAJAAABVAAAAL6AAAABgAAACUAAAVPAAAC+QAAAAAAAAAABVYAAAAGAAAAJQAABU8AAAL5"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAJEA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAApQD///8AAAABAAABnwAAAtj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACSAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAQkA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAAAAAC2AAAAOYA////AAAFSgAAAtUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "base_font_size": 19,
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "system",
+    "hide_tooltips": true,
+    "keyboard_shortcuts": {
+      "pagedown": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": " ",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "PageDown",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "j",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "pageup": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "PageUp",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": " ",
+          "metaKey": false,
+          "shiftKey": true
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "k",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ]
+    },
+    "lines_per_sec_auto": 1,
+    "override_book_colors": "always",
+    "read_mode": "paged",
+    "standalone_font_settings": {
+      "minimum_font_size": 12,
+      "mono_family": "JetBrainsMono Nerd Font",
+      "sans_family": "JetBrainsMono Nerd Font",
+      "serif_family": "JetBrainsMono Nerd Font"
+    },
+    "standalone_misc_settings": {
+      "auto_hide_mouse": false,
+      "singleinstance": true
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Стивен Прессфилд"
+        ],
+        "key": "/home/boketto/Библиотека calibre/Stivien Priessfild/Voina za krieativ. Kak prieodoliet' vnutrienniie bar'iery i nachat' tvorit' (4)/Voina za krieativ. Kak prieodoliet' vnutri - Stivien Priessfild.fb2",
+        "pathtoebook": "/home/boketto/Библиотека calibre/Stivien Priessfild/Voina za krieativ. Kak prieodoliet' vnutrienniie bar'iery i nachat' tvorit' (4)/Voina za krieativ. Kak prieodoliet' vnutri - Stivien Priessfild.fb2",
+        "timestamp": "2025-03-20T21:00:05.817Z",
+        "title": "Война за креатив. Как преодолеть внутренние барьеры и начать творить"
+      },
+      {
+        "authors": [
+          "Брайан В. Керниган",
+          "Деннис  М. Ритчи"
+        ],
+        "key": "/home/boketto/Библиотека calibre/Braian V. Kiernighan/Iazyk proghrammirovaniia Si. Izdaniie 3-ie, ispravliennoie (3)/Iazyk proghrammirovaniia Si. Izdaniie 3-ie - Braian V. Kiernighan.epub",
+        "pathtoebook": "/home/boketto/Библиотека calibre/Braian V. Kiernighan/Iazyk proghrammirovaniia Si. Izdaniie 3-ie, ispravliennoie (3)/Iazyk proghrammirovaniia Si. Izdaniie 3-ie - Braian V. Kiernighan.epub",
+        "timestamp": "2024-11-17T20:00:57.634Z",
+        "title": "Язык программирования Си. Издание 3-е, исправленное"
+      },
+      {
+        "authors": [
+          "Джеймс Клир"
+        ],
+        "key": "/home/boketto/Библиотека calibre/Dzhieims Klir/Atomnyie privychki. Kak priobriesti khoroshiie privychki i izbavit'sia ot plokhikh (2)/Atomnyie privychki. Kak priobriesti khoros - Dzhieims Klir.epub",
+        "pathtoebook": "/home/boketto/Библиотека calibre/Dzhieims Klir/Atomnyie privychki. Kak priobriesti khoroshiie privychki i izbavit'sia ot plokhikh (2)/Atomnyie privychki. Kak priobriesti khoros - Dzhieims Klir.epub",
+        "timestamp": "2024-11-14T01:45:10.505Z",
+        "title": "Атомные привычки. Как приобрести хорошие привычки и избавиться от плохих"
+      },
+      {
+        "authors": [
+          "John Schember"
+        ],
+        "key": "/home/boketto/Библиотека calibre/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub",
+        "pathtoebook": "/home/boketto/Библиотека calibre/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub",
+        "timestamp": "2024-09-28T14:11:50.418Z",
+        "title": "Quick Start Guide"
+      }
+    ],
+    "user_stylesheet": "* {\n  font-family: \"JetBrainsMono Nerd Font\";\n  font-weight: medium;\n}"
+  }
+}

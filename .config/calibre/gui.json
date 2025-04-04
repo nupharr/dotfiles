@@ -1,0 +1,429 @@
+{
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "choose_icon_theme_initial_tab": 2,
+  "color_palette": "dark",
+  "cover_grid_color": [
+    80,
+    80,
+    80
+  ],
+  "cover_grid_texture": null,
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "dark_palette_name": "__current__",
+  "dark_palettes": {
+    "__current__": {
+      "AlternateBase": "#1e1e2e",
+      "Base": "#181825",
+      "BrightText": "#cdd6f4",
+      "BrightText-disabled": "#cdd6f4",
+      "Button": "#1e1e2e",
+      "ButtonText": "#cdd6f4",
+      "ButtonText-disabled": "#585b70",
+      "Highlight": "#89dceb",
+      "HighlightedText": "#1e1e2e",
+      "HighlightedText-disabled": "#181825",
+      "Link": "#f5e0dc",
+      "LinkVisited": "#89b4fa",
+      "PlaceholderText": "#cdd6f4",
+      "PlaceholderText-disabled": "#cdd6f4",
+      "Text": "#cdd6f4",
+      "Text-disabled": "#585b70",
+      "ToolTipBase": "#11111b",
+      "ToolTipText": "#cdd6f4",
+      "ToolTipText-disabled": "#cdd6f4",
+      "Window": "#11111b",
+      "WindowText": "#cdd6f4",
+      "WindowText-disabled": "#585b70"
+    }
+  },
+  "default_author_link": null,
+  "font": [
+    "JetBrainsMono Nerd Font",
+    12,
+    500,
+    false
+  ],
+  "font_stretch": 0,
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 730,
+      "width": 1356,
+      "x": 5,
+      "y": 33
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 728,
+      "width": 1354,
+      "x": 6,
+      "y": 34
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 728,
+      "width": 1354,
+      "x": 6,
+      "y": 34
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAFAAAAIQAABVAAAAL6AAAABgAAACIAAAVPAAAC+QAAAAAAAAAABVYAAAAGAAAAIgAABU8AAAL5"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-choose-icon-theme-dialog-geometry": {
+    "frame_geometry": {
+      "height": 695,
+      "width": 902,
+      "x": 232,
+      "y": 36
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 693,
+      "width": 900,
+      "x": 233,
+      "y": 37
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 693,
+      "width": 900,
+      "x": 233,
+      "y": 37
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAADoAAAAJAAABG0AAALaAAAA6QAAACUAAARsAAAC2QAAAAAAAAAABVYAAADpAAAAJQAABGwAAALZ"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-customize-palette-geometry": {
+    "frame_geometry": {
+      "height": 582,
+      "width": 828,
+      "x": 269,
+      "y": 93
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 580,
+      "width": 826,
+      "x": 270,
+      "y": 94
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 580,
+      "width": 826,
+      "x": 270,
+      "y": 94
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAENAAAAXQAABEgAAAKiAAABDgAAAF4AAARHAAACoQAAAAAAAAAABVYAAAEOAAAAXgAABEcAAAKh"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 768,
+      "width": 1366,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": true,
+    "geometry": {
+      "height": 768,
+      "width": 1366,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 704,
+      "width": 1161,
+      "x": 102,
+      "y": 32
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABVUAAAL/AAAAZgAAACAAAATuAAAC3wAAAAAABAAABVYAAAAAAAAAAAAABVUAAAL/"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "gpm_template_editor_font": "JetBrainsMono Nerd Font",
+  "gpm_template_editor_word_wrap_mode": true,
+  "grid view visible": false,
+  "library_usage_stats": {
+    "/home/boketto/Библиотека calibre": 41
+  },
+  "light_palette_name": "__current__",
+  "light_palettes": {
+    "__current__": {
+      "AlternateBase": "#eff1f5",
+      "Base": "#e6e9ef",
+      "BrightText": "#4c4f69",
+      "BrightText-disabled": "#4c4f69",
+      "Button": "#eff1f5",
+      "ButtonText": "#4c4f69",
+      "ButtonText-disabled": "#acb0be",
+      "Highlight": "#86c8e7",
+      "HighlightedText": "#4c4f69",
+      "HighlightedText-disabled": "#e6e9ef",
+      "Link": "#dc8a78",
+      "LinkVisited": "#1e66f5",
+      "PlaceholderText": "#4c4f69",
+      "PlaceholderText-disabled": "#4c4f69",
+      "Text": "#4c4f69",
+      "Text-disabled": "#acb0be",
+      "ToolTipBase": "#dce0e8",
+      "ToolTipText": "#4c4f69",
+      "ToolTipText-disabled": "#4c4f69",
+      "Window": "#dce0e8",
+      "WindowText": "#4c4f69",
+      "WindowText-disabled": "#acb0be"
+    }
+  },
+  "main_window_central_widget_state": {
+    "layout": "wide",
+    "narrow_desires": {
+      "book_details_height": 0.23042505592841164,
+      "cover_browser_width": 0.3497142857142857,
+      "quick_view_height": 0.25615212527964204,
+      "tag_browser_width": 0.24971428571428572
+    },
+    "narrow_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    },
+    "wide_desires": {
+      "book_details_width": 0.3,
+      "cover_browser_height": 0.28556593977154726,
+      "quick_view_height": 0.23779854620976115,
+      "tag_browser_width": 0.3
+    },
+    "wide_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    }
+  },
+  "quick_start_guide_added": true,
+  "qv_open_at_shutdown": false,
+  "search bar visible": true,
+  "show_emblems": false,
+  "show_splash_screen": false,
+  "tag browser search box visible": false,
+  "tb_search_order": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 0
+  },
+  "template_functions_prefs_st_show_help": true,
+  "template_functions_prefs_tf_show_help": true,
+  "toolbar_icon_size": "small"
+}

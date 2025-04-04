@@ -1,0 +1,236 @@
+{
+  "check-book-splitter-state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAAARgAAAEYA/////wEAAAABAA=="
+  },
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "find-widget-state": {
+    "case_sensitive": false,
+    "direction": "down",
+    "dot_all": false,
+    "mode": "normal",
+    "where": "current",
+    "wrap": true
+  },
+  "geometry-of-import-foreign-geometry": {
+    "frame_geometry": {
+      "height": 240,
+      "width": 618,
+      "x": 374,
+      "y": 264
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 238,
+      "width": 616,
+      "x": 375,
+      "y": 265
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 238,
+      "width": 616,
+      "x": 375,
+      "y": 265
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAF2AAABCAAAA98AAAH3AAABdwAAAQkAAAPeAAAB9gAAAAAAAAAABVYAAAF3AAABCQAAA94AAAH2"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 727,
+      "width": 675,
+      "x": 5,
+      "y": 36
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 725,
+      "width": 673,
+      "x": 6,
+      "y": 37
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 725,
+      "width": 673,
+      "x": 6,
+      "y": 37
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAFAAAAJAAAAqcAAAL6AAAABgAAACUAAAKmAAAC+QAAAAAAAAAABVYAAAAGAAAAJQAAAqYAAAL5"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAD9AAAABAAAAAAAAABGAAACePwCAAAABfsAAAAkAGYAaQBsAGUAcwAtAGIAcgBvAHcAcwBlAHIALQBkAG8AYwBrAQAAAEIAAAJ4AAAAXQD////7AAAAHgB0AG8AYwAtAHYAaQBlAHcAZQByAC0AZABvAGMAawAAAAAA/////wAAAF0A////+wAAACAAdABlAHgAdAAtAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAAI8A////+wAAACAAYwBoAGUAYwBrAHAAbwBpAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAJMA////+wAAACYAcwBhAHYAZQBkAC0AcwBlAGEAcgBjAGgAZQBzAC0AZABvAGMAawAAAAAA/////wAAAk8A////AAAAAQAAAH0AAAJ4/AIAAAAC+wAAABgAcAByAGUAdgBpAGUAdwAtAGQAbwBjAGsBAAAAQgAAAngAAABaAP////sAAAAaAGwAaQB2AGUALQBjAHMAcwAtAGQAbwBjAGsAAAAAAP////8AAABdAP///wAAAAIAAAAAAAAAAPwBAAAAAfsAAAAeAGMAaABlAGMAawAtAGIAbwBvAGsALQBkAG8AYwBrAAAAAAD/////AAAAkAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAA4AP///wAAAdIAAAJ4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAUAGcAbABvAGIAYQBsAC0AYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABIAdABvAG8AbABzAC0AYgBhAHIBAAABJv////8AAAAAAAAAAAAAABYAcABsAHUAZwBpAG4AcwAtAGIAYQByAAAAAAD/////AAAAAAAAAAA="
+  },
+  "recent-books": [
+    "/home/boketto/projects/index.epub",
+    "/home/boketto/Downloads/Telegram Desktop/AtomicHabits.epub",
+    "/home/boketto/Downloads/Telegram Desktop/Kernigan_Yazyk_programmirovaniya_Si_Izdanie_3_e_ispravlennoe_168075.epub"
+  ],
+  "reports-ui-state": {},
+  "saved_seaches_state": {
+    "direction": "down",
+    "where": "current",
+    "wrap": true
+  },
+  "search-panel-visible": false,
+  "text_search_widget_state": {
+    "case_sensitive": false,
+    "dot_all": true,
+    "mode": "normal",
+    "where": "current"
+  }
+}
