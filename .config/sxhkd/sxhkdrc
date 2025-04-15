@@ -12,7 +12,7 @@ super + {_, shift +}@space
 
 # Randomize wallpaper
 super + alt + w
-  feh --randomize --bg-fill /home/boketto/Pictures
+  feh --randomize --bg-fill /home/boketto/Wallpapers
 
 # toggle all windows
 super + d
