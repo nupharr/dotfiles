@@ -1,0 +1,14 @@
+i3lock-color 2.13.c.5-3
+libpamac-full 1:11.7.3-1
+mpdris2 0.9.1-1
+pamac-all 11.7.2-1
+pamac-cli 11.7.3-1
+pantum-driver 1.1.123-1
+pantum-driver-debug 1.1.123-1
+phinger-cursors 2.1-1
+snapd 2.68-1
+snapd-glib 1.65-1
+ttf-times-new-roman 2.0-3
+yay 12.4.1-1
+yay-debug 12.4.1-1
+zsh-theme-powerlevel10k-git r4293.087405df-1
