@@ -60,8 +60,7 @@ super + g
 # state/flags
 #
 
-# set the window state
-super + {t,shift + t,s,f}
+# set the window state super + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 	bspc node -g {marked,locked,sticky,private}
 
@@ -155,3 +154,7 @@ XF86MonBrightnessUp
 
 XF86MonBrightnessDown
   brightnessctl set 355-
+
+# clipmenu
+super + shift + v
+  clipmenu
