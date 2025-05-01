@@ -1,28 +1,28 @@
 {
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
-      "height": 727,
+      "height": 758,
       "width": 1356,
       "x": 5,
-      "y": 36
+      "y": 5
     },
     "full_screened": false,
     "geometry": {
-      "height": 725,
+      "height": 756,
       "width": 1354,
       "x": 6,
-      "y": 37
+      "y": 6
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 725,
+      "height": 756,
       "width": 1354,
       "x": 6,
-      "y": 37
+      "y": 6
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAFAAAAJAAABVAAAAL6AAAABgAAACUAAAVPAAAC+QAAAAAAAAAABVYAAAAGAAAAJQAABU8AAAL5"
+      "__value__": "AdnQywADAAAAAAAFAAAABQAABVAAAAL6AAAABgAAAAYAAAVPAAAC+QAAAAAAAAAABVYAAAAGAAAABgAABU8AAAL5"
     },
     "screen": {
       "depth": 24,
@@ -52,7 +52,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAJEA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAApQD///8AAAABAAABnwAAAtj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACSAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAQkA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAAAAAC2AAAAOYA////AAAFSgAAAtUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAJEA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAApQD///8AAAABAAABnwAAAtj8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACSAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAQkA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAAAAAC2AAAAOYA////AAAFSgAAAvQAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "session_data": {
@@ -122,6 +122,15 @@
       "singleinstance": true
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "Адитья Бхаргава"
+        ],
+        "key": "/home/boketto/Библиотека calibre/Adit'ia Bkharghava/Grokaiem alghoritmy. Illiustrirovannoie posobiie dlia proghrammistov i liubopytstvuiushchikh (5)/Grokaiem alghoritmy. Illiustrirovannoie po - Adit'ia Bkharghava.epub",
+        "pathtoebook": "/home/boketto/Библиотека calibre/Adit'ia Bkharghava/Grokaiem alghoritmy. Illiustrirovannoie posobiie dlia proghrammistov i liubopytstvuiushchikh (5)/Grokaiem alghoritmy. Illiustrirovannoie po - Adit'ia Bkharghava.epub",
+        "timestamp": "2025-04-27T13:55:58.664Z",
+        "title": "Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих"
+      },
       {
         "authors": [
           "Стивен Прессфилд"

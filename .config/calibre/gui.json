@@ -146,28 +146,28 @@
   "font_stretch": 0,
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 730,
+      "height": 735,
       "width": 1356,
       "x": 5,
-      "y": 33
+      "y": 28
     },
     "full_screened": false,
     "geometry": {
-      "height": 728,
+      "height": 733,
       "width": 1354,
       "x": 6,
-      "y": 34
+      "y": 29
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 728,
+      "height": 733,
       "width": 1354,
       "x": 6,
-      "y": 34
+      "y": 29
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAFAAAAIQAABVAAAAL6AAAABgAAACIAAAVPAAAC+QAAAAAAAAAABVYAAAAGAAAAIgAABU8AAAL5"
+      "__value__": "AdnQywADAAAAAAAFAAAAHAAABVAAAAL6AAAABgAAAB0AAAVPAAAC+QAAAAAAAAAABVYAAAAGAAAAHQAABU8AAAL5"
     },
     "screen": {
       "depth": 24,
@@ -352,7 +352,7 @@
   "gpm_template_editor_word_wrap_mode": true,
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/boketto/Библиотека calibre": 41
+    "/home/boketto/Библиотека calibre": 49
   },
   "light_palette_name": "__current__",
   "light_palettes": {
