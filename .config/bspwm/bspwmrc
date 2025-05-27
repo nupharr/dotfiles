@@ -38,5 +38,5 @@ bspc config paddingless_monocle true
 
 # Правила
 bspc rule -a floating-app state=floating center=on
-bspc rule -a TelegramDesktop state=floating layer=normal follow=on sticky=on
-bspc rule -a Thunar state=floating follow=on layer=above
+bspc rule -a TelegramDesktop state=floating
+bspc rule -a Thunar state=floating

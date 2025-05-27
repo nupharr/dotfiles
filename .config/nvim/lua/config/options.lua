@@ -3,7 +3,7 @@
 -- Add any additional options here
 local opt = vim.opt
 
-opt.mouse = ""
+-- opt.mouse = ""
 opt.wrap = true
 opt.scrolloff = 10
 opt.iskeyword:append("-")

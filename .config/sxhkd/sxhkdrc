@@ -157,5 +157,9 @@ XF86MonBrightnessDown
   brightnessctl set 355-
 
 # clipmenu
-super + shift + v
+super + alt + v
   clipmenu
+
+# emoji-menu
+super + alt + e
+  rofi -modi emoji -show emoji
