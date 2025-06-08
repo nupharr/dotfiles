@@ -25,6 +25,7 @@ bindkey "^]]B" history-search-forward
 alias ll='eza --tree --level=0 --icons=always --no-time --no-user --no-permissions --all'
 alias vim='nvim'
 alias ff='fastfetch'
+alias lgit='lazygit'
 # Sources
 eval "$(zoxide init zsh)"
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
