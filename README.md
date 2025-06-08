@@ -1,5 +1,9 @@
 # It`s my dotfiles
 
+```sh
+stow .
+```
+
 ⚙️Configuration files are located here:
 
 - zsh (with plugins)
