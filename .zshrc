@@ -22,7 +22,7 @@ bindkey "^[[A" history-search-backward
 bindkey "^]]B" history-search-forward
 
 # Aliases
-alias ll='eza --tree --level=1 --icons=always --no-time --no-user --no-permissions --all'
+alias ll='eza --tree --level=0 --icons=always --no-time --no-user --no-permissions --all'
 alias vim='nvim'
 alias ff='fastfetch'
 # Sources
