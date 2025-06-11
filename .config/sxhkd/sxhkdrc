@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + {_, shift +}@space
-	{rofi -show drun, sh $HOME/bin/powermenu}
+	{$HOME/.config/rofi/launchers/launcher.sh, $HOME/.config/rofi/powermenu/powermenu.sh}
 
 # Randomize wallpaper
 super + alt + w
