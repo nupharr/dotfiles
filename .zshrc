@@ -34,5 +34,4 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source ~/.zsh/autoswitch_virtualenv/autoswitch_virtualenv.plugin.zsh
 
-# Created by `pipx` on 2025-04-02 20:46:27
 export PATH="$PATH:/home/boketto/.local/bin"

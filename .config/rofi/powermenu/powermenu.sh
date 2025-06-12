@@ -68,7 +68,7 @@ run_cmd() {
       systemctl reboot
     elif [[ $1 == '--suspend' ]]; then
       mpc -q pause
-      amixer set Master mute
+      # amixer set Master mute
       systemctl suspend
       sh $HOME/bin/screen_lock
     elif [[ $1 == '--logout' ]]; then

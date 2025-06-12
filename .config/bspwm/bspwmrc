@@ -30,9 +30,9 @@ bspc config single_monocle false
 # Отключение гапсов рамок и отступов когда открыто одно окно
 bspc config borderless_monocle false
 bspc config gapless_monocle false
-bspc config paddingless_monocle true
+bspc config paddingless_monocle false
 
 # Правила
-bspc rule -a floating-app state=floating center=on
 bspc rule -a TelegramDesktop state=floating
 bspc rule -a Thunar state=floating
+bspc rule -a pavucontrol state=floating
