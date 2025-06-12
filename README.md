@@ -1,12 +1,7 @@
+<!-- INFORMATION -->
 <h1 align="center"> 📁 Dotfiles </h1>
 
-<!-- BADGES -->
-</br>
-
-<!-- INFORMATION -->
-<h1 align="left"> :blue_book: About</h1>
-
-<img src="https://github.com/nupharr/dotfiles/blob/main/2025-06-10_16-29.png" alt="rice" align="right" width="500px">
+<img src="https://github.com/nupharr/dotfiles/blob/main/2025-06-10_16-29.png" alt="rice" align="right" width="450px">
 
 - OS: [**`Arch Linux`**](https://archlinux.org/)
 - WM: [**`BSPWM`**](https://github.com/baskerville/bspwm)
