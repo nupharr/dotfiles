@@ -35,3 +35,4 @@ source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source ~/.zsh/autoswitch_virtualenv/autoswitch_virtualenv.plugin.zsh
 
 export PATH="$PATH:/home/boketto/.local/bin"
+export PATH="$PATH:/home/boketto/bin"

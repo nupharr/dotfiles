@@ -1,14 +1,12 @@
 ############################################
-# 🔄 SXHKD CONFIG RELOAD
-############################################
+# SXHKD CONFIG RELOAD
 
 # super + Escape — reload sxhkd to apply config changes
 super + Escape
   pkill -USR1 -x sxhkd
 
 ############################################
-# 🖥 TERMINAL
-############################################
+# TERMINAL
 
 # super + Return — launch Alacritty terminal
 # super + shift + Return — launch Alacritty as a floating window
@@ -16,8 +14,7 @@ super + {_,shift + }Return
   {alacritty, bspc rule -a \* -o state=floating && alacritty}
 
 ############################################
-# 🚀 APPLICATION LAUNCHERS (ROFI)
-############################################
+# APPLICATION LAUNCHERS (ROFI)
 
 # super + space — open application launcher via rofi
 # super + shift + space — open power menu via rofi
@@ -25,16 +22,14 @@ super + {_, shift + }@space
   {$HOME/.config/rofi/launchers/launcher.sh, $HOME/.config/rofi/powermenu/powermenu.sh}
 
 ############################################
-# 🎨 WALLPAPER MANAGEMENT
-############################################
+# WALLPAPER MANAGEMENT
 
 # super + alt + w — set a random wallpaper from ~/Wallpapers
 super + alt + w
   feh --randomize --bg-fill /home/boketto/Wallpapers
 
 ############################################
-# 🪟 WINDOW VISIBILITY & BARS
-############################################
+# WINDOW VISIBILITY & BARS
 
 # super + d — toggle visibility (hidden) state of all local windows
 super + d
@@ -45,8 +40,7 @@ super + p
   $HOME/bin/toggle_polybar.sh
 
 ############################################
-# ⚙️ APPLICATION SHORTCUTS
-############################################
+# APPLICATION SHORTCUTS
 
 # super + shift + f — launch Firefox
 # super + shift + e — launch Thunar file manager
@@ -63,8 +57,7 @@ super + shift + {f,e,p,i,x,c}
   alacritty -e calcurse}
 
 ############################################
-# 🔁 BSPWM SESSION MANAGEMENT
-############################################
+# BSPWM SESSION MANAGEMENT
 
 # super + alt + q — quit bspwm
 # super + alt + r — restart bspwm
@@ -77,8 +70,7 @@ super + {_,shift + }w
   bspc node -{c,k}
 
 ############################################
-# 🧱 WINDOW LAYOUTS & STATES
-############################################
+# WINDOW LAYOUTS & STATES
 
 # super + m — toggle between tiled and monocle layout
 super + m
@@ -92,8 +84,7 @@ super + {t,shift + t,s,f}
   bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 ############################################
-# 🧭 FOCUS & MOVEMENT
-############################################
+# FOCUS & MOVEMENT
 
 # super + h/j/k/l — move focus left/down/up/right
 # super + shift + h/j/k/l — swap window in given direction
@@ -111,16 +102,14 @@ super + {_,shift + }{1-9,0}
   bspc {desktop -f,node -d} '^{1-9,10}'
 
 ############################################
-# 📌 WINDOW FLAGS
-############################################
+# WINDOW FLAGS
 
 # super + shift + s — toggle sticky flag (window visible on all desktops)
 super + shift + s
   bspc node -g sticky
 
 ############################################
-# 🎯 PRESELECTION (WINDOW SPLIT PREVIEW)
-############################################
+# PRESELECTION (WINDOW SPLIT PREVIEW)
 
 # super + ctrl + h/j/k/l — preselect split direction for next window
 super + ctrl + {h,j,k,l}
@@ -135,16 +124,14 @@ super + ctrl + space
   bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
 ############################################
-# 🔧 FLOATING WINDOW MOVE
-############################################
+# FLOATING WINDOW MOVE
 
 # super + arrow keys — move floating windows by 20px
 super + {Left,Down,Up,Right}
   bspc node -v {-20 0,0 20,0 -20,20 0}
 
 ############################################
-# 🔊 AUDIO CONTROL
-############################################
+# AUDIO CONTROL
 
 # XF86AudioRaiseVolume — increase system volume by 5%
 XF86AudioRaiseVolume
@@ -159,16 +146,25 @@ XF86AudioMute
   pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 ############################################
-# 📸 SCREENSHOT
+# MEDIA CONTROL
+
+# super + alt + Left/Right — предыдущий/следующий трек
+super + alt + {Left,Right}
+  playerctl {previous,next}
+
+# super + alt + Down — пауза/воспроизведение
+super + alt + Down
+  playerctl play-pause
+
 ############################################
+# SCREENSHOT
 
 # Print key — launch Flameshot GUI for taking screenshots
 @Print
   flameshot gui
 
 ############################################
-# 🌞 BRIGHTNESS CONTROL
-############################################
+# BRIGHTNESS CONTROL
 
 # XF86MonBrightnessUp — increase screen brightness
 XF86MonBrightnessUp
@@ -179,17 +175,26 @@ XF86MonBrightnessDown
   brightnessctl set 355-
 
 ############################################
-# 📋 CLIPBOARD HISTORY
-############################################
+# CLIPBOARD HISTORY
 
 # super + v — launch clipmenu to manage clipboard history
 super + v
   clipmenu
 
 ############################################
-# 😄 EMOJI PICKER
-############################################
+# EMOJI PICKER
 
 # super + e — open emoji picker via rofi
 super + e
   rofi -modi emoji -show emoji
+
+############################################
+# TOGGLE APPS
+
+# Toggle Alacritty
+super + ctrl + Return
+    ~/bin/bspwm-toggle-visibility Alacritty alacritty
+
+# Toggle Thunar
+super + ctrl + e
+    ~/bin/bspwm-toggle-visibility thunar --take-first
