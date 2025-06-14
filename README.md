@@ -8,6 +8,7 @@
 - Bar: [**`Polybar`**](https://github.com/polybar/polybar)
 - Terminal: [**`Alacritty`**](https://github.com/alacritty/alacritty)
 - App Launcher: [**`Rofi`**](https://github.com/davatorium/rofi)
+- Notify Daemon: [**`Dunst`**](https://github.com/dunst-project/dunst)
 - Shell: [**`zsh`**](https://github.com/ohmyzsh/ohmyzsh)
 
 </br>
