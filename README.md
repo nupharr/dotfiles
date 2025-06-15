@@ -18,7 +18,8 @@
 Clone repository
 
 ```sh
-git clone https://github.com/nupharr/dotfiles.git ~/dotfiles && cd ~/dotfiles
+git clone https://github.com/nupharr/dotfiles.git ~/ && cd ~/dotfiles
+
 ```
 
 ```sh
