@@ -2,25 +2,18 @@
 
 MAX_LENGTH=25
 
-# Получаем метаданные
-artist="$(playerctl metadata --format '{{ artist }}' 2>/dev/null || echo "Unknown Artist")"
-title="$(playerctl metadata --format '{{ title }}' 2>/dev/null || echo "Unknown Track")"
-status="$(playerctl status 2>/dev/null || echo "")"
+title="$(playerctl metadata --all-players --format '{{ artist }} - {{ title }}' 2>/dev/null || echo "")"
 
-full_title="$artist - $title"
-
-if [[ ${#full_title} -gt $MAX_LENGTH ]]; then
-  display_title="${full_title:0:$MAX_LENGTH}..."
-else
-  display_title="$full_title"
+if [[ ${#title} -gt $MAX_LENGTH ]]; then
+  title="${title:0:$MAX_LENGTH}..."
 fi
 
-notification="$full_title"
+playerctlstatus=$(playerctl status 2>/dev/null)
 
-if [[ -z "$status" ]]; then
+if [[ $playerctlstatus == "" ]]; then
   echo ""
-elif [[ "$status" == "Playing" ]]; then
-  echo "%{A1:notify-send -t 3000 -i 🎵 '$notification' &:}󰎇 $display_title%{A} %{A1:playerctl previous:}󰒮%{A} %{A1:playerctl pause:}󰏤%{A} %{A1:playerctl next:}󰒭%{A}"
+elif [[ $playerctlstatus =~ "Playing" ]]; then
+  echo "󰎇 $title %{A1:playerctl previous:}󰒮%{A} %{A1:playerctl pause:}󰏤%{A} %{A1:playerctl next:}󰒭%{A}"
 else
-  echo "%{A1:notify-send -t 3000 -i 🎵 '$notification' &:}󰎇 $display_title%{A} %{A1:playerctl previous:}󰒮%{A} %{A1:playerctl play:}▶️%{A} %{A1:playerctl next:}󰒭%{A}"
+  echo "󰎇 $title %{A1:playerctl previous:}󰒮%{A} %{A1:playerctl play:}▶️%{A} %{A1:playerctl next:}󰒭%{A}"
 fi

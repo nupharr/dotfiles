@@ -34,5 +34,6 @@ bspc config paddingless_monocle false
 bspc rule -a TelegramDesktop state=floating
 bspc rule -a Thunar state=floating
 bspc rule -a pavucontrol state=floating
+bspc rule -a lxappearance state=floating
 
 $HOME/.config/polybar/launch.sh &

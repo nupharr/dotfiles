@@ -135,15 +135,15 @@ super + {Left,Down,Up,Right}
 
 # XF86AudioRaiseVolume — increase system volume by 5%
 XF86AudioRaiseVolume
-  amixer set Master 5%+
+  amixer set Master 5%+ && ~/bin/volume_notify.sh
 
 # XF86AudioLowerVolume — decrease system volume by 5%
 XF86AudioLowerVolume
-  amixer set Master 5%-
+  amixer set Master 5%- && ~/bin/volume_notify.sh
 
 # XF86AudioMute — toggle mute on default sink
 XF86AudioMute
-  pactl set-sink-mute @DEFAULT_SINK@ toggle
+  pactl set-sink-mute @DEFAULT_SINK@ toggle && ~/bin/volume_notify.sh
 
 ############################################
 # MEDIA CONTROL
@@ -168,11 +168,11 @@ super + alt + Down
 
 # XF86MonBrightnessUp — increase screen brightness
 XF86MonBrightnessUp
-  brightnessctl set 355+
+  brightnessctl set 5%+ && ~/bin/brightness_notify.sh
 
 # XF86MonBrightnessDown — decrease screen brightness
 XF86MonBrightnessDown
-  brightnessctl set 355-
+  brightnessctl set 5%- && ~/bin/brightness_notify.sh
 
 ############################################
 # CLIPBOARD HISTORY
