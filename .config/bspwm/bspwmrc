@@ -36,4 +36,5 @@ bspc rule -a Thunar state=floating
 bspc rule -a pavucontrol state=floating
 bspc rule -a lxappearance state=floating
 
+# Autostart
 $HOME/.config/polybar/launch.sh &
