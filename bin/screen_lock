@@ -1,9 +1,57 @@
 #!/bin/bash
 
-fg=c0caf5
-wrong=db4b4b
-date=7aa2f7
-verify=7aa2f7
+# Requires i3lock-color: https://github.com/Raymo111/i3lock-color
 
-lock_image="$HOME/Wallpapers/Pink_Flowers_Photograph_by_Lisa_Fotios.jpeg"
-i3lock -n --force-clock -i $lock_image -e --indicator --radius=20 --ring-width=40 --inside-color=$fg --ring-color=$fg --insidever-color=$verify --ringver-color=$verify --insidewrong-color=$wrong --ringwrong-color=$wrong --line-uses-inside --keyhl-color=$verify --separator-color=$verify --bshl-color=$verify --time-str="%H:%M" --time-size=140 --date-str="%a, %d %b" --date-size=45 --verif-text="Verifying Password..." --wrong-text="Wrong Password!" --noinput-text="" --greeter-text="Type the password to Unlock" --ind-pos="650:760" --time-font="JetBrainsMono Nerd Font:style=Bold" --date-font="JetBrainsMono Nerd Font" --verif-font="JetBrainsMono Nerd Font" --greeter-font="JetBrainsMono Nerd Font" --wrong-font="JetBrainsMono Nerd Font" --verif-size=23 --greeter-size=23 --wrong-size=23 --time-pos="650:540" --date-pos="650:600" --greeter-pos="650:930" --wrong-pos="650:970" --verif-pos="650:805" --date-color=$date --time-color=$date --greeter-color=$fg --wrong-color=$wrong --verif-color=$verify --verif-pos="650:970" --pointer=default --refresh-rate=0 --pass-media-keys --pass-volume-keys
+# # catppuccin-latte
+# COLOR_BASE="eff1f5ff"
+# COLOR_BLUE="1e66f5ff"
+# COLOR_FLAMINGO="dd7878ff"
+# COLOR_GREEN="40a02bff"
+# COLOR_RED="d20f39ff"
+# COLOR_SKY="04a5e5ff"
+# COLOR_TEAL="179299ff"
+# COLOR_TEXT="4c4f69ff"
+
+# catppuccin-macchiato
+# COLOR_BASE="24273aff"
+# COLOR_BLUE="8aadf4ff"
+# COLOR_FLAMINGO="dd7878ff"
+# COLOR_GREEN="40a02bff"
+# COLOR_MAUVE="c6a0f6ff"
+# COLOR_PINK="f5bde6ff"
+# COLOR_LAVENDER="b7bdf8ff"
+# COLOR_RED="d20f39ff"
+# COLOR_ROSEWATER="f4dbd6ff"
+# COLOR_SKY="91d7e3ff"
+# COLOR_TEAL="8bd5caff"
+# COLOR_TEXT="cad3f5ff"
+
+# catppuccin-mocha
+COLOR_BASE="#1e1e2e"
+COLOR_BLUE="#89b4fa"
+COLOR_FLAMINGO="#f2cdcd"
+COLOR_GREEN="#a6e3a1"
+COLOR_MAUVE="#cba6f7"
+COLOR_PINK="#f5c2e7"
+COLOR_LAVENDER="#b4befe"
+COLOR_RED="#f38ba8"
+COLOR_ROSEWATER="#f5e0dc"
+COLOR_SKY="#89dceb"
+COLOR_TEAL="#94e2d5"
+COLOR_TEXT="#cdd6f4"
+
+i3lock \
+  --blur=5 \
+  --clock \
+  --date-str="%a, %m-%d" \
+  --ignore-empty-password \
+  --pass-media-keys --pass-screen-keys --pass-power-keys --pass-volume-keys \
+  --show-failed-attempts \
+  --inside-color="$COLOR_BASE" --ring-color="$COLOR_TEAL" \
+  --insidever-color="$COLOR_BLUE" --ringver-color="$COLOR_SKY" \
+  --insidewrong-color="$COLOR_RED" --ringwrong-color="$COLOR_ROSEWATER" \
+  --keyhl-color="$COLOR_GREEN" --bshl-color="$COLOR_RED" \
+  --layout-color="$COLOR_TEXT" --time-color="$COLOR_TEXT" --date-color="$COLOR_TEXT" --greeter-color="$COLOR_TEXT" \
+  --verif-color="$COLOR_TEXT" --wrong-color="$COLOR_TEXT" --modif-color="$COLOR_TEXT" \
+  --timeoutline-width="1" --timeoutline-color="$COLOR_BASE" \
+  ;
