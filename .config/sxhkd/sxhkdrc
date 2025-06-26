@@ -48,13 +48,12 @@ super + p
 # super + shift + i — launch Firefox in private window
 # super + shift + x — launch color picker script
 # super + shift + c — launch Calcurse terminal calendar
-super + shift + {f,e,p,i,x,c}
+super + shift + {f,e,p,i,x}
   {firefox, \
   thunar, \
   pavucontrol, \
   firefox --private-window, \
-  $HOME/bin/xcolor-pick.sh, \
-  alacritty -e calcurse}
+  $HOME/bin/xcolor-pick.sh}
 
 ############################################
 # BSPWM SESSION MANAGEMENT

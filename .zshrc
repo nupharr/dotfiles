@@ -26,6 +26,7 @@ alias ll='eza --tree --level=0 --icons=always --no-time --no-user --no-permissio
 alias vim='nvim'
 alias ff='fastfetch'
 alias lgit='lazygit'
+alias cls='clear'
 # Sources
 eval "$(zoxide init zsh)"
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
