@@ -7,4 +7,4 @@ local opt = vim.opt
 opt.wrap = true
 opt.scrolloff = 10
 opt.iskeyword:append("-")
-opt.clipboard = "unnamedplus"
+opt.clipboard = ""

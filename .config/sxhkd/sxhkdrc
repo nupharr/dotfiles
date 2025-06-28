@@ -196,4 +196,4 @@ super + ctrl + Return
 
 # Toggle Thunar
 super + ctrl + e
-    ~/bin/bspwm-toggle-visibility thunar --take-first
+    ~/bin/bspwm-toggle-visibility Thunar --take-first

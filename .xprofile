@@ -5,3 +5,7 @@ dunst &
 picom &
 clipmenud &
 sh ~/.fehbg &
+
+# Touchpad
+xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Scrolling Pixel Distance" 50
+xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Accel Speed" 0.25
